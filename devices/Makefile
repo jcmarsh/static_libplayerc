@@ -14,3 +14,6 @@ copy:
 clean:
 #	rm *.o
 
+nuke:
+#	rm -f *.c
+#	rm -f *.h

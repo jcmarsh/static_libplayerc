@@ -7,3 +7,7 @@ error.o:
 
 clean:
 	rm -f *.o
+
+nuke:
+	rm -f *.c
+	rm -f *.h

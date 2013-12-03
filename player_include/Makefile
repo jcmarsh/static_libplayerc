@@ -15,3 +15,11 @@ copy:
 
 clean:
 	cd libplayercommon; make clean
+
+nuke:
+	cd libplayerinterface; make nuke
+	cd replace; make nuke
+	cd libplayercommon; make nuke
+	cd libplayerwkb; make nuke
+
+

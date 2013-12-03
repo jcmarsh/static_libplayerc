@@ -26,3 +26,10 @@ clean:
 	cd libplayerc; make clean
 	cd devices; make clean
 
+nuke: clean
+	cd player_include; make nuke
+	cd player_build; make nuke
+	cd libplayerinterface; make nuke
+	cd libplayerc; make nuke
+	cd devices; make nuke
+

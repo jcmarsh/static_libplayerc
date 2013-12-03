@@ -14,3 +14,8 @@ copy:
 
 clean:
 	cd libplayerinterface; make clean
+
+nuke:
+	rm -f *.c
+	rm -f *.h
+	cd libplayerinterface; make nuke
