@@ -1,0 +1,8 @@
+These files just need to be copied from the Player source.
+cp ~/research/player/libplayerinterface/player.h ./libplayerinterface
+cp ~/research/player/libplayerinterface/functiontable.h ./libplayerinterface/
+cp ~/research/player/replace/replace.h ./replace/
+cp ~/research/player/libplayercommon/playercommon.h ./libplayercommon/
+cp ~/research/player/libplayercommon/error.h ./libplayercommon/
+cp ~/research/player/libplayerinterface/interface_util.h ./libplayerinterface/
+cp ~/research/player/libplayerwkb/playerwkb.h ./libplayerwkb/

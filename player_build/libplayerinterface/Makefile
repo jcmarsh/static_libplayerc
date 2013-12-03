@@ -1,0 +1,6 @@
+include ../../Makefile.variable
+
+all: playerxdr.o
+
+playerxdr.o:
+	gcc $(INC) -c -o playerxdr.o playerxdr.c

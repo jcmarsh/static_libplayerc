@@ -1,0 +1,4 @@
+cp ~/research/player/libplayerinterface/functiontable.c ./
+cp ~/research/player/libplayerinterface/functiontable.h ./
+
+gcc -I../player_build/ -I../player_build/libplayerinterface/ -I../player_include/ -c -o functiontable.o functiontable.c
