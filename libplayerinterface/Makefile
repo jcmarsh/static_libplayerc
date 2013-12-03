@@ -13,3 +13,6 @@ copy:
 	cp $(PLAYER)/libplayerinterface/interface_util.h ./
 	cp $(PLAYER)/libplayerinterface/functiontable.c ./
 	cp $(PLAYER)/libplayerinterface/functiontable.h ./
+
+clean:
+	rm -f *.o

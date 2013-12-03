@@ -4,3 +4,6 @@ all: playerxdr.o
 
 playerxdr.o:
 	gcc $(INC) -c -o playerxdr.o playerxdr.c
+
+clean:
+	rm -f *.o

@@ -22,3 +22,5 @@ copy:
 	cp $(PLAYER)/client_libs/libplayerc/mclient.c ./
 	cp $(PLAYER)/client_libs/libplayerc/device.c ./
 
+clean:
+	rm -f *.o

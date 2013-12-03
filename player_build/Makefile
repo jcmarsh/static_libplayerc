@@ -11,3 +11,6 @@ copy:
 	cp $(PLAYER)/build/libplayerinterface/interface_table.h ./libplayerinterface/
 	cp $(PLAYER)/build/libplayerinterface/playerxdr.h ./libplayerinterface/
 	cp $(PLAYER)/build/libplayerinterface/playerxdr.c ./libplayerinterface/
+
+clean:
+	cd libplayerinterface; make clean
