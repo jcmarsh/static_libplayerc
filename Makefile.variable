@@ -1,4 +1,4 @@
 RESEARCH=/home/jcmarsh/research
 PLAYER=$(RESEARCH)/player
 SRCDIR=$(RESEARCH)/static_libplayerc
-INC=-I$(SRCDIR)/player_build/ -I$(SRCDIR)/player_build/libplayerinterface/ -I$(SRCDIR)/player_include/
+INC=-I$(SRCDIR)/ -I$(SRCDIR)/player_build/ -I$(SRCDIR)/player_build/libplayerinterface/ -I$(SRCDIR)/player_include/
