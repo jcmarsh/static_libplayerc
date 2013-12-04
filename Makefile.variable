@@ -1,3 +1,5 @@
+CC=diet gcc -nostdinc
+LIBCDIR=/usr/lib/diet/lib-x86_64
 RESEARCH=/home/jcmarsh/research
 PLAYER=$(RESEARCH)/player
 SRCDIR=$(RESEARCH)/static_libplayerc
