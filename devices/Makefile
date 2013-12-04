@@ -140,6 +140,7 @@ dev_wsn.o:
 copy:
 	cp $(PLAYER)/client_libs/libplayerc/dev_*.c ./
 	cp $(PLAYER)/client_libs/libplayerc/playerc.h ./
+	cp $(PLAYER)/client_libs/libplayerc/error.h ./
 
 clean:
 	rm -f *.o
