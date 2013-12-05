@@ -3,16 +3,16 @@ include ../Makefile.variable
 all: client.o error.o device.o mclient.o
 
 client.o:
-	$(CC) $(INC) -c -o client.o client.c
+	$(CC) $(CFLAGS) $(INC) -c -o client.o client.c
 
 error.o:
-	$(CC) $(INC) -c -o error.o error.c
+	$(CC) $(CFLAGS) $(INC) -c -o error.o error.c
 
 device.o:
-	$(CC) $(INC) -c -o device.o device.c
+	$(CC) $(CFLAGS) $(INC) -c -o device.o device.c
 
 mclient.o: 
-	$(CC) $(INC) -c -o mclient.o mclient.c
+	$(CC) $(CFLAGS) $(INC) -c -o mclient.o mclient.c
 
 copy:
 	cp $(PLAYER)/client_libs/libplayerc/client.c ./

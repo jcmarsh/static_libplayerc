@@ -3,10 +3,10 @@ include ../Makefile.variable
 all: interface_util.o functiontable.o
 
 interface_util.o:
-	$(CC) $(INC) -c -o interface_util.o interface_util.c
+	$(CC) $(CFLAGS) $(INC) -c -o interface_util.o interface_util.c
 
 functiontable.o: 
-	$(CC) $(INC) -c -o functiontable.o functiontable.c
+	$(CC) $(CFLAGS) $(INC) -c -o functiontable.o functiontable.c
 
 copy:
 	cp $(PLAYER)/libplayerinterface/interface_util.c ./
