@@ -1,5 +1,5 @@
-CC=diet gcc -nostdinc
-CFLAGS=-m32
+CC=diet gcc
+CFLAGS=-nostdinc -m32
 RESEARCH=/home/jcmarsh/research
 LIBCDIR=$(RESEARCH)/dietlibc-0.33/bin-i386
 PLAYER=$(RESEARCH)/player
